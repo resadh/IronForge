@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IronForge.CoreBusiness\IronForge.CoreBusiness.csproj" />
+    <ProjectReference Include="..\IronForge.Plugins\IronForge.Plugins.InMemory\IronForge.Plugins.InMemory.csproj" />
+    <ProjectReference Include="..\IronForge.UseCases\IronForge.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
