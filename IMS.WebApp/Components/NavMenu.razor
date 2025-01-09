@@ -1,0 +1,205 @@
+﻿@rendermode InteractiveServer
+@inherits LayoutComponentBase
+
+@inject NavigationManager NavigationManager
+
+
+<MudNavMenu>
+    <MudPaper Class="pa-4 mr-16">
+
+    <MudNavLink Href="/" Match="NavLinkMatch.All">
+        <MudIcon Icon="@Icons.Material.Filled.Home" />
+        Home
+    </MudNavLink>
+    <MudNavLink Href="/produce">
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Proizvodnja
+    </MudNavLink>
+    <MudNavLink Href="/purchase">
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Kupi
+    </MudNavLink>
+    <MudNavLink Href="/sell">
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Prodaj
+    </MudNavLink>
+    <MudNavLink Href="/addinventory">
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Dodaj inventar
+    </MudNavLink>
+    <MudNavLink Href="/inventories">
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Pregledaj inventar
+    </MudNavLink>
+    <MudNavLink Href="/products">
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Pregledaj proizvode
+    </MudNavLink>
+    <MudNavLink Href="/Account/Register">
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Registruj se
+    </MudNavLink>
+    
+    <MudNavLink Href="/Account/Login">
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Log in
+    </MudNavLink>
+
+    <MudNavLink Href="">
+
+        <MudIcon Icon="@Icons.Material.Filled.Info" />
+        Log out
+    </MudNavLink>
+
+    </MudPaper>
+
+
+
+
+  @*   <MudButton Href="/"
+               Match="NavLinkMatch.All"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Glavna
+    </MudButton>
+
+    <MudButton Href="/produce"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.GasMeter"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Proizvodnja
+    </MudButton>
+
+    <MudButton Href="/purchase"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Kupi
+    </MudButton>
+
+    <MudButton Href="/sell"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Prodaj
+    </MudButton>
+
+    <MudButton Href="/addinventory"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Dodaj u magacin
+    </MudButton>
+
+    <MudButton Href="/inventories"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Pregledaj magacin
+    </MudButton>
+
+    <MudButton Href="/products"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Proizvodi
+    </MudButton>
+
+    <MudButton Href="/Account/Register"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Registruj se
+    </MudButton>
+
+    <MudButton Href="/Account/Login"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        Uloguj se *@
+    @* </MudButton> *@
+
+ @*    <MudButton Href="/Account/logout"
+               Target="_blank"
+               Variant="Variant.Filled"
+               EndIcon="@Icons.Material.Rounded.Logout"
+               Color="Color.Primary"
+               Disabled=@disabled>
+        izloguj se
+    </MudButton> *@
+
+</MudNavMenu>
+
+
+@code {
+    bool disabled = false;
+
+    private string? currentUrl;
+    private bool collapseNavMenu = true;
+    private string collapseOrNot = "collapse";
+
+    private bool collapseActivitiesMenu = true;
+    private bool collapseReportsMenu = true;
+
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
+        StateHasChanged();
+    }
+
+    private void ToggleMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+        collapseOrNot = collapseNavMenu ? "collapse" : string.Empty;
+    }
+
+    private void ToggleActivities()
+    {
+        collapseActivitiesMenu = !collapseActivitiesMenu;
+        collapseReportsMenu = true;
+    }
+
+    private void ToggleReports()
+    {
+        collapseReportsMenu = !collapseReportsMenu;
+        collapseActivitiesMenu = true;
+    }
+
+    private void CollapseDropdownMenus()
+    {
+        collapseActivitiesMenu = true;
+        collapseReportsMenu = true;
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+}
+
+
