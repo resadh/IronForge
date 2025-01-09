@@ -1,0 +1,25 @@
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\bin\Debug\net8.0\IMS.CoreBusiness.deps.json
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\bin\Debug\net8.0\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\bin\Debug\net8.0\IMS.CoreBusiness.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\refint\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\ref\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\bin\Debug\net8.0\IMS.CoreBusiness.deps.json
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\bin\Debug\net8.0\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\bin\Debug\net8.0\IMS.CoreBusiness.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.sourcelink.json
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\refint\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\IMS.CoreBusiness.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.CoreBusiness\obj\Debug\net8.0\ref\IMS.CoreBusiness.dll

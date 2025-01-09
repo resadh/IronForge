@@ -1,0 +1,39 @@
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.deps.json
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.runtimeconfig.json
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.UseCases.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.CoreBusiness.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.UseCases.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plug.A688A412.Up2Date
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\refint\IMS.Plugins.EFCoreSqlServer.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\ref\IMS.Plugins.EFCoreSqlServer.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.deps.json
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.runtimeconfig.json
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.CoreBusiness.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.UseCases.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.CoreBusiness.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\bin\Debug\net8.0\IMS.UseCases.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.sourcelink.json
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plug.A688A412.Up2Date
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\refint\IMS.Plugins.EFCoreSqlServer.dll
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.pdb
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\IMS.Plugins.EFCoreSqlServer.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\IMS-Blazor-8-master - Copy\IMS-Blazor-8-master\IMS.Plugins\IMS.Plugins.EFCoreSqlServer\obj\Debug\net8.0\ref\IMS.Plugins.EFCoreSqlServer.dll
