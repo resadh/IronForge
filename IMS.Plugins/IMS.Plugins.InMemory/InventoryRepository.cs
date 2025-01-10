@@ -11,10 +11,10 @@ namespace IMS.Plugins.InMemory
         {
             _inventories = new List<Inventory>()
             {
-                new Inventory { InventoryId = 1, InventoryName = "Bike Seat", Quantity = 10, Price = 2 },
-                new Inventory { InventoryId = 2, InventoryName = "Bike Body", Quantity = 10, Price = 15 },
-                new Inventory { InventoryId = 3, InventoryName = "Bike Wheels", Quantity = 20, Price = 8 },
-                new Inventory { InventoryId = 4, InventoryName = "Bike Pedels", Quantity = 20, Price = 1 },
+                new Inventory { InventoryId = 1, InventoryName = "Profil", Quantity = 10, Price = 2 },
+                new Inventory { InventoryId = 2, InventoryName = "Okovi", Quantity = 10, Price = 15 },
+                new Inventory { InventoryId = 3, InventoryName = "Lim", Quantity = 20, Price = 8 },
+                new Inventory { InventoryId = 4, InventoryName = "Sina", Quantity = 20, Price = 1 },
             };
         }
 

@@ -15,7 +15,7 @@ namespace IMS.CoreBusiness.Validations
             if (product != null)
             {
                 if (!ValidatePricing(product))
-                    return new ValidationResult($"The product's price is less than the inventories cost: {TotalInventoriesCost(product).ToString("c")}!",
+                    return new ValidationResult($"Cena proizvoda je manja od cene inventara: {TotalInventoriesCost(product).ToString("c")}!",
                         new List<string>() { validationContext.MemberName });
             }
 

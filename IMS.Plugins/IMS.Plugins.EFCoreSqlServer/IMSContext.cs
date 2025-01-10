@@ -34,15 +34,15 @@ namespace IMS.Plugins.EFCoreSqlServer
 
             //seeding data
             modelBuilder.Entity<Inventory>().HasData(
-                new Inventory { InventoryId = 1, InventoryName = "Bike Seat", Quantity = 10, Price = 2 },
-                new Inventory { InventoryId = 2, InventoryName = "Bike Body", Quantity = 10, Price = 15 },
-                new Inventory { InventoryId = 3, InventoryName = "Bike Wheel", Quantity = 20, Price = 8 },
-                new Inventory { InventoryId = 4, InventoryName = "Bike Pedal", Quantity = 20, Price = 1 }
+                new Inventory { InventoryId = 1, InventoryName = "Profil", Quantity = 10, Price = 2 },
+                new Inventory { InventoryId = 2, InventoryName = "Okovi", Quantity = 10, Price = 15 },
+                new Inventory { InventoryId = 3, InventoryName = "Lim", Quantity = 20, Price = 8 },
+                new Inventory { InventoryId = 4, InventoryName = "Sina", Quantity = 20, Price = 1 }
             );
 
             modelBuilder.Entity<Product>().HasData(
-                new Product() { ProductId = 1, ProductName = "Bike", Quantity = 10, Price = 150 },
-                new Product() { ProductId = 2, ProductName = "Car", Quantity = 5, Price = 25000 }
+                new Product() { ProductId = 1, ProductName = "Kapija", Quantity = 10, Price = 150 },
+                new Product() { ProductId = 2, ProductName = "Ograda", Quantity = 5, Price = 25000 }
             );
 
             modelBuilder.Entity<ProductInventory>().HasData(

@@ -3,10 +3,58 @@
 
 @inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
 @inject IEditInventoryUseCase EditInventoryUseCase
+@inject NavigationManager NavigationManager
+<PageTitle>Glavna Strana</PageTitle>
+<br/>
+<br/>
 
-<PageTitle>Test Page</PageTitle>
-<br/>
-<br/>
+
+
+<div class="d-flex justify-center">
+    <MudImage ObjectFit="@ImageFit" Height="200" Width="400" Src="images/1.jpg" Alt="Örebro Slott" Elevation="25" Class="rounded-lg" />
+</div>
+
+<MudChipSet T="string" CheckMark Class="mt-12">
+    <MudChip Text="None" OnClick="@(() => SetImageFit(ObjectFit.None))" SelectedColor="Color.Primary" />
+    <MudChip Text="Cover" OnClick="@(() => SetImageFit(ObjectFit.Cover))" SelectedColor="Color.Primary" Default="true" />
+    <MudChip Text="Contain" OnClick="@(() => SetImageFit(ObjectFit.Contain))" SelectedColor="Color.Primary" />
+    <MudChip Text="Fill" OnClick="@(() => SetImageFit(ObjectFit.Fill))" SelectedColor="Color.Primary" />
+    <MudChip Text="ScaleDown" OnClick="@(() => SetImageFit(ObjectFit.ScaleDown))" SelectedColor="Color.Primary" />
+</MudChipSet>
+
+<button @onclick="IncrementCounter">Click Me</button>
+<p>Counter: @counter</p>
+
+@code {
+    private int counter = 0;
+
+    private void IncrementCounter()
+    {
+        counter++;
+    }
+}
+
+
+
+
+
+
+
+@code {
+    public int Spacing { get; set; } = 6;
+
+    ObjectFit ImageFit = ObjectFit.Cover;
+
+    void SetImageFit(ObjectFit value)
+    {
+        ImageFit = value;
+    }
+}
+
+
+
+
+
 
 <ul>
     @if (inventories is not null && inventories.Count > 0)

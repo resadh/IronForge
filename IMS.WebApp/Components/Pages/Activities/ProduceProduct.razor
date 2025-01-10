@@ -13,7 +13,7 @@
 @inject IViewProductByIdUseCase ViewProductByIdUseCase
 @inject IProduceProductUseCase ProduceProductUseCase
 
-<h3>Produce Product</h3>
+<h3>Kreiraj novi produkt</h3>
 <br/>
 
 <EditForm id="produce-form" Model="produceViewModel" OnValidSubmit="Produce">
@@ -21,14 +21,14 @@
     <ValidationSummary></ValidationSummary>
 
     <div class="form-group">
-        <label for="po">Production #</label>
+        <label for="po">Broj Proizvoda</label>
         <InputText id="po" @bind-Value="produceViewModel.ProductionNumber" class="form-control"></InputText>
     </div>
     <br />
     <div class="card">
         <div class="card-body">
             <div class="form-group">
-                <AutoCompleteComponent Label="Product to Produce"
+                <AutoCompleteComponent Label="Proizvod koji se proizvodi"
                                        SearchFunction="SearchProduct"
                                        OnItemSelected="HandleItemSelected"></AutoCompleteComponent>
             </div>
@@ -36,11 +36,11 @@
     </div>
     <br />
     <div class="form-group">
-        <label for="qty">Quantity</label>
+        <label for="qty">Kolicina</label>
         <InputNumber id="qty" @bind-Value="produceViewModel.QuantityToProduce" class="form-control"></InputNumber>
     </div>
     <br />
-    <button type="submit" class="btn btn-primary">Produce</button>
+    <button type="submit" class="btn btn-primary">Proizvedi</button>
 </EditForm>
 
 @code {

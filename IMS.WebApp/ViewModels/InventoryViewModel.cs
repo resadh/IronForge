@@ -10,10 +10,10 @@ namespace IMS.CoreBusiness
         [StringLength(150)]
         public string InventoryName { get; set; } = string.Empty;
 
-        [Range(0, int.MaxValue, ErrorMessage = "Quantity must be greator or equal to 0.")]
+        [Range(0, int.MaxValue, ErrorMessage = "Kolicina mora biti jednaka ili veca od 0.")]
         public int Quantity { get; set; }
 
-        [Range(0, int.MaxValue, ErrorMessage = "Price must be greator or equal to 0.")]
+        [Range(0, int.MaxValue, ErrorMessage = "Cena mora biti jednaka ili veca od 0.")]
         public double Price { get; set; }
         
     }

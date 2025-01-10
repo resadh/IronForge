@@ -14,7 +14,7 @@ namespace IMS.WebApp.ViewModelsValidations
                 {
                     if (sellViewModel.Product.Quantity < sellViewModel.QuantityToSell)
                     {
-                        return new ValidationResult($"There isn't enough product. There is only {sellViewModel.Product.Quantity} in the warehouse.",
+                        return new ValidationResult($"Nema dovoljno proizovda. Imate samo {sellViewModel.Product.Quantity} u magacinu.",
                             new[] { validationContext.MemberName });
                     }
                 }

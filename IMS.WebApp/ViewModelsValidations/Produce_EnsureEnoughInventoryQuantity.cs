@@ -17,7 +17,7 @@ namespace IMS.WebApp.ViewModelsValidations
                         if (pi.Inventory != null &&
                             pi.InventoryQuantity * produceViewModel.QuantityToProduce > pi.Inventory.Quantity)
                         {
-                            return new ValidationResult($"The inventory ({pi.Inventory.InventoryName}) is not enough to produce {produceViewModel.QuantityToProduce} products",
+                            return new ValidationResult($"Inventar ({pi.Inventory.InventoryName}) Nije dovoljan za proizvodnju {produceViewModel.QuantityToProduce} proizvoda",
                                 new[] { validationContext.MemberName });
                         }
                     }

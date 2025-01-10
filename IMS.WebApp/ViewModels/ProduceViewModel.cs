@@ -9,10 +9,10 @@ namespace IMS.WebApp.ViewModels
         [Required]
         public string ProductionNumber { get; set; } = string.Empty;
 
-        [Range(minimum: 1, maximum:int.MaxValue, ErrorMessage = "You have to select a product.")]
+        [Range(minimum: 1, maximum:int.MaxValue, ErrorMessage = "Morate izabrati proizvod.")]
         public int ProductId { get; set; }
 
-        [Range(minimum: 1, maximum: int.MaxValue, ErrorMessage = "Quantity has to be greater or equal to 1.")]
+        [Range(minimum: 1, maximum: int.MaxValue, ErrorMessage = "Kolicina mora biti jednaka ili veca od 1.")]
         [Produce_EnsureEnoughInventoryQuantity]
         public int QuantityToProduce { get; set; }
 

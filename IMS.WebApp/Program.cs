@@ -20,15 +20,35 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Options;
 
+using MudBlazor.Services;
+
+
 
 
 var builder = WebApplication.CreateBuilder(args);
 var constr = builder.Configuration.GetConnectionString("InventoryManagement");
 
+
+builder.Services.AddMudServices();
+
+
+
+
+//configure EF core for idendtiyu
 builder.Services.AddDbContext<AccountDbContext>(options =>
 {
+
     options.UseSqlServer(constr);
+
 });
+
+//configure Identity
+
+//builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+//{
+//    options.SignIn.RequireConfirmedEmail = false;
+
+//}).AddEntityFrameworkStores<AccountDbContext>();
 
 
 
@@ -129,8 +149,11 @@ else
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
-app.UseAntiforgery();
 
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseAntiforgery();
 
 
 app.MapRazorComponents<App>()

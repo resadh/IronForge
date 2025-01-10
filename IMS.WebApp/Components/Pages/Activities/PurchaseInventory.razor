@@ -13,7 +13,7 @@
 @inject IViewInventoryByIdUseCase ViewInventoryByIdUseCase
 @inject IPurchaseInventoryUseCase PurchaseInventoryUseCase
 
-<h3>Purchase Inventory</h3>
+<h3>Kupi proizvod</h3>
 <br/>
 
 <EditForm id="purchase-form" Model="purchaseViewModel" OnValidSubmit="Purchase">
@@ -21,19 +21,19 @@
     <ValidationSummary></ValidationSummary>
 
     <div class="form-group">
-        <label for="po">Purchase Order #</label>
+        <label for="po">Porudzbenica broj #</label>
         <InputText id="po" @bind-Value="purchaseViewModel.PONumber" class="form-control"></InputText>
     </div>
     <br/>
     <div class="card">
         <div class="card-body">
             <div class="form-group">
-                <AutoCompleteComponent Label="Inventory to Purchase"
+                <AutoCompleteComponent Label="Proizvod"
                                        SearchFunction="SearchInventory"
                                        OnItemSelected="HandleItemSelected"></AutoCompleteComponent>
                 @if (purchaseViewModel.InventoryPrice > 0)
                 {
-                    <text>Price:</text>
+                    <text>Cena:</text>
                     @purchaseViewModel.InventoryPrice.ToString("c")
                 }
 
@@ -42,11 +42,11 @@
     </div>    
     <br/>
     <div class="form-group">
-        <label for="qty">Quantity</label>
+        <label for="qty">Kolicina</label>
         <InputNumber id="qty" @bind-Value="purchaseViewModel.QuantityToPurchase" class="form-control"></InputNumber>
     </div>
     <br/>
-    <button type="submit" class="btn btn-primary">Purchase</button>
+    <button type="submit" class="btn btn-primary">Kupi</button>
 </EditForm>
 
 
